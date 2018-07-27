@@ -12,7 +12,7 @@ function cheesesteak(date) {
   }
 
   // make it biweekly depends on the week number
-  if (csDay.week() % 2 !== 0) {
+  if (csDay.week() % 2 === 0) {
     csDay.add(1, 'week');
   }
 
