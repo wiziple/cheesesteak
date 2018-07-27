@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import moment from 'moment';
 
 function cheesesteak(date) {
@@ -21,5 +23,7 @@ function cheesesteak(date) {
 
   return csDay;
 }
+
+cheesesteak();
 
 export default cheesesteak;

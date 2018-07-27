@@ -1,4 +1,4 @@
-import cheesesteak from '../src';
+import cheesesteak from '../src'; // eslint-disable-line
 
 describe('cheesesteak', () => {
   it('should return the next cheesesteak day', () => {
