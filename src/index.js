@@ -2,6 +2,7 @@ import moment from 'moment';
 
 function cheesesteak(date) {
   const target = date ? moment(date) : moment();
+
   // find a 12pm friday of the week
   const csDay = target.clone().startOf('week').add(5, 'days').add(12, 'hours');
 
@@ -16,7 +17,7 @@ function cheesesteak(date) {
   }
 
   // print out the date
-  console.info(`${csDay.format('LLL')} (${csDay.fromNow()})`);
+  console.info(`Next Cheesesteak day is ${csDay.format('LLL')} (${csDay.fromNow()}) 🎉`);
 
   return csDay;
 }
