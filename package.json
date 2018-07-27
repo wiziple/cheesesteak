@@ -1,6 +1,6 @@
 {
   "name": "cheesesteak",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "description": "",
   "repository": "github:wiziple/cheesesteak",
@@ -18,7 +18,7 @@
     "build": "babel src --out-dir dist"
   },
   "bin": {
-    "cheesesteak": "dist/index.js"
+    "cheesesteak": "node dist/index.js"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
